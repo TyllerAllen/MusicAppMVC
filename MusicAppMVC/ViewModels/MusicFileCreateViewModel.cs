@@ -11,6 +11,7 @@ namespace MusicAppMVC.ViewModels
     public class MusicFileCreateViewModel
     {
         public List<IFormFile> Files { get; set; }
+        public IList<string> Genres { get; set; }
         public IEnumerable<MusicFile> MusicFiles { get; set; }
     }
 }
